@@ -4,14 +4,14 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=2nwUBaCJ#d-HfEOFUuHF4TXdLbeIWw9qDiGmOHehUgWtYDTV8oIA' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=rrRj0LaR#KMGa8OZd__l1m5xrb_FPqEBfG94NC4r-_etv7g9HIdE' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*🐼හෙලෝ..කොහොමද ඔයාට..🍓!*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "🍒𝗔𝗨𝗧𝗢🍇𝗦𝗧𝗔𝗧𝗨𝗦🍎𝗩𝗜𝗘𝗪𝗘𝗗🫐𝗕𝗬🍏𝗣𝗔𝗧𝗛𝗨𝗠🍓!",
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "true" : process.env.AUTO_VOICE,
-AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
+AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "true" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "true" : process.env.ANTI_LINK,
